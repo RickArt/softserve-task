@@ -3,9 +3,9 @@ package com.github.rickart.softserve.task.dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-@Getter
 @AllArgsConstructor
-public class GetDistinctLettersResponseDTO{
+@Getter
+public class ErrorResponseDTO {
     private int status;
-    private String distinctLetters;
+    private String message;
 }
