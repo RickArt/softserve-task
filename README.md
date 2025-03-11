@@ -48,6 +48,6 @@ Also, it must have a test coverage with a different test cases.
     - [ ] "status" field will match the HTTP status code: 200 for successful responses. No other status are considered for this iteration, but proposed solution allows for custom handling of scenarios as needed.
     - [ ] "distinctStringLetters" field will have the distinct letters as extracted from the originalString.
 - [ ] Create a service to be used by the rest controller to delegate to it any logic related to the solution.
-- [ ] Use "Strategy" pattern to isolate the solution algorithm and allow for extension for the future.
-- [ ] Use "Factory method" pattern to allow future extension for picking the best algorithm according to the situation.
+- [x] Use "Strategy" pattern to isolate the solution algorithm and allow for extension for the future.
+- [x] Use "Factory method" pattern to allow future extension for picking the best algorithm according to the situation.
 - [ ] Add Unit tests.
