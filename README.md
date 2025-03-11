@@ -50,4 +50,4 @@ Also, it must have a test coverage with a different test cases.
 - [x] Create a service to be used by the rest controller to delegate to it any logic related to the solution.
 - [x] Use "Strategy" pattern to isolate the solution algorithm and allow for extension for the future.
 - [x] Use "Factory method" pattern to allow future extension for picking the best algorithm according to the situation.
-- [ ] Add Unit tests.
+- [x] Add Unit tests.
