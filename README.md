@@ -40,14 +40,14 @@ Also, it must have a test coverage with a different test cases.
   - Knowledge of java, Spring boot, REST, Maven, JUnit, Mockito.
 - [x] Add git version control and create a personal repository.
 - [x] Add CHANGELOG
-- [ ] Keep track of the changes on the CHANGELOG file.
-- [ ] Use feature branches
-- [ ] Use conventional commit messages for git commits.
-- [ ] Create REST controller with an endpoint "/distinct" that accepts one URL param "originalString"
-  - [ ] the endpoint will return a JSON body with "status" and "distinctStringLetters" fields.
-    - [ ] "status" field will match the HTTP status code: 200 for successful responses. No other status are considered for this iteration, but proposed solution allows for custom handling of scenarios as needed.
-    - [ ] "distinctStringLetters" field will have the distinct letters as extracted from the originalString.
-- [ ] Create a service to be used by the rest controller to delegate to it any logic related to the solution.
+- [x] Keep track of the changes on the CHANGELOG file.
+- [x] Use feature branches
+- [x] Use conventional commit messages for git commits.
+- [x] Create REST controller with an endpoint "/distinct" that accepts one URL param "originalString"
+  - [x] the endpoint will return a JSON body with "status" and "distinctStringLetters" fields.
+    - [x] "status" field will match the HTTP status code: 200 for successful responses. No other status are considered for this iteration, but proposed solution allows for custom handling of scenarios as needed.
+    - [x] "distinctStringLetters" field will have the distinct letters as extracted from the originalString.
+- [x] Create a service to be used by the rest controller to delegate to it any logic related to the solution.
 - [x] Use "Strategy" pattern to isolate the solution algorithm and allow for extension for the future.
 - [x] Use "Factory method" pattern to allow future extension for picking the best algorithm according to the situation.
 - [ ] Add Unit tests.
